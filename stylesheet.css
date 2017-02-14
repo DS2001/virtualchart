@@ -1,0 +1,90 @@
+body {
+    background-color: #404040;
+    font-family: Ubuntu;
+}
+
+/* NAVBAR style*/
+.navbarlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    color: white;
+}
+ 
+li {
+    float: left;
+}
+
+li:nth-child(1) {
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+/*EINDE navbar*/
+
+/*HEADER*/
+.header_text {
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+
+div.content {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-color: #ffffff;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+    overflow: auto;
+     
+}
+
+.content_background {
+    background: url("http://www.dafont.com/forum/attach/orig/3/9/398483.png")
+    no-repeat top center;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #404040;
+    bottom: 0;
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.article {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 40%;
+    padding: 1px;
+    border-style: groove;
+    border-color: lightgrey;
+}
+
+/*END HOMEPAGE*/
+
+
