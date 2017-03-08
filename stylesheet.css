@@ -51,7 +51,7 @@ div.content {
     opacity: 0.98;
     filter: alpha(opacity=98);
     overflow: auto;
-     
+     
 }
 
 .content_background {
@@ -65,7 +65,6 @@ div.content {
     height: auto;
     margin: 10px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     background-color: #404040;
     bottom: 0;
@@ -85,37 +84,17 @@ a {
     border-color: lightgrey;
 }
 
+.app {
+    margin-bottom: 10%;
+}
 /*END HOMEPAGE*/
 
-.about_page {
-    color: white;
-    text-align: center;
-    }
+/*APP PAGE*/
+div.content {
+    justify-content: center;
+}
 
-/*END ABOUT PAGE*/
-
-.apps_page {
-    color: white;
-    text-align: center;
-    }
-
-/*END APPS PAGE*/
-
-.contact_page {
-    color: white;
-    text-align: center;
-    }
-
-/*END CONTACT PAGE*/
-
-.news_page {
-    color: white;
-    text-align: center;
-    }
-
-.changes_page {
-    color: white;
-    text-align: center;
-    }
-
-/*END NEWS PAGE*/
+img {
+    width: 20%;
+    height: 8%;
+}
