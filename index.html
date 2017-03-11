@@ -7,6 +7,8 @@
         <title>VirtualCharts Home</title>
 
         <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
 
@@ -19,8 +21,6 @@
                 <ul class='navbarlist'>
 
                     <li><a href='index.html'>Home</a></li>
-
-                    <li><a href='charts.html'>Charts</a></li>
 
                     <li><a href='news.html'>News</a></li>
 
@@ -45,14 +45,7 @@
         <div class="content_background">
 
         <center><div class='content'>
-
-            <div class='charts'>
-
-                <h1>Charts</h1>
-
-                <p>Search your arrivalcharts <a href="charts.html">here</a>.</p>
-
-            </div>
+            
 
             <div class='news'>
 
@@ -60,9 +53,9 @@
 
                 <center><div class='article'>
 
-                    <h2>Virtualhub for IOS and Android!</h2>
+                    <h2>Virtualhub for Android!</h2>
 
-                    <p>It came! the virtualhub app for IOS and android, download <a href="#link to appstore">here</a> ,or read more about it </p>
+                    <p>It came! the virtualhub app for android, download <a href="https://play.google.com/store/apps/details?id=com.virtualflight.virtualcharts&hl=nle">here</a>, or read more about it </p>
 
                     <p> <a href='news.html'>read more</a></p>
 
@@ -72,9 +65,9 @@
 
             <div class='about'>
 
-                <h1>About</h1>
+                <h1 style="color: black;">About</h1>
 
-                <p>Dragos his job <a href='about.html'>HERE</a></p>
+                <p>Want to find out more about us? take a look <a href='about.html'>here</a></p>
 
             </div>
 
@@ -88,7 +81,7 @@
 
             <div class='app'>
 
-                <h1>Apps</h1>
+                <h1>App</h1>
 
                 <p>We have created an app for Android, we already made the IOS app but we need donations to place it on the AppStore. So do you want VirtualHub on the AppStore just donate us. . Here can you find over 600 charts!<a href='app.html'>Read more</a></p>
 
@@ -98,7 +91,11 @@
 
         </div>
         
-        
+        <div class='footer'>
+
+            <p>&copy; Virtual Flight 2017</p>
+
+        </div>
         
 
         <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
@@ -125,14 +122,19 @@
 
 </script>
 
+        <script>
+            if window.innerWidth < 440) {
+            alert("this page isn't made for mobil use, please download our app VirtualHub i the GooglePlay store")
+}
+else {
+   return true;
+}
+            
+            
+        </script>
         
 
      </body>
-    <div class='footer'>
-
-            <p>&copy; Virtual Flight 2017</p>
-
-        </div>
     
     
 
