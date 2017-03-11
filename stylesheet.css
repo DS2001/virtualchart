@@ -3,7 +3,8 @@ body {
     font-family: Ubuntu;
 }
 
-/* NAVBAR style*/
+/* NAVBAR */
+/*________________________________________________________________*/
 .navbarlist {
     list-style-type: none;
     margin: 0;
@@ -33,15 +34,21 @@ li a:hover {
     background-color: lightgrey;
     color: black;
 }
-/*EINDE navbar*/
+/* END NAVBAR */
 
-/*HEADER*/
+/*________________________________________________________________*/
+
+/* HEADER */
 .header_text {
     color: white;
     text-align: center;
     align-self: center;
 }
 
+/* END HEADER */
+/*________________________________________________________________*/
+
+/* CONTENT STYLE */
 div.content {
     width: 60%;
     justify-content: center;
@@ -52,6 +59,14 @@ div.content {
     filter: alpha(opacity=98);
     overflow: auto;
      
+}
+
+.content h1 {
+    color: black;
+}
+
+.content p {
+    color: black;
 }
 
 .content_background {
@@ -83,18 +98,107 @@ a {
     border-style: groove;
     border-color: lightgrey;
 }
+.news {
+    color: black;
+}
+
+.about {
+    color: black;
+}
+
+.contact {
+    color: black;
+}
 
 .app {
     margin-bottom: 10%;
 }
-/*END HOMEPAGE*/
+/* END CONTENT STYLE */
 
-/*APP PAGE*/
-div.content {
-    justify-content: center;
+/*STYLE MOBILE*/
+@media screen and (max-width: 480px) {
+    div.content {
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        background-color: white;
+        overflow: auto;
+    }
+    
+    
+    a {
+        font-size: 14px;
+    }
+    
+    .article {
+        width: 80%;
+        padding: 1px;
+        border: 1px groove lightgrey;
+    }
+}
+/* END HOMEPAGE */
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* APP PAGE */
+.apptext {
+    align-content: center;
 }
 
-img {
+.apptext img {
     width: 20%;
     height: 8%;
+    border: 2px solid grey;
+    border-radius: 5px;
 }
+
+div.header_text {
+    color: white;
+}
+
+.apptext p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.google {
+    width: 18%;
+    height: auto;
+}
+
+/* END APP PAGE */
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* NEWS PAGE */
+div.android_app {
+    background-color: grey;
+    width: 60%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    color: white;
+}
+div.header_text {
+    color: white;
+}
+
+/* END NEWS PAGE*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* ABOUT PAGE*/ 
+
+.about h1, p{
+    color: white;
+}
+
+/* END ABOUT PAGE */
+
